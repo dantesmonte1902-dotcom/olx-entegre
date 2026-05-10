@@ -84,7 +84,7 @@ class OLX_BA_Admin
                         </span>
                         <div class="olx-ba-hero-meta">
                             <strong><?php echo esc_html($active_profile_label); ?></strong>
-                            <span><?php echo esc_html(sprintf(__('Default route: category %1$s / city %2$s / country %3$s', 'olx-ba-woocommerce-sync'), $settings['default_category_id'] ?: '-', $settings['city_id'] ?: '-', $settings['country_id'] ?: '-')); ?></span>
+                            <span><?php echo esc_html(sprintf(__('Default route: category %1$s / city %2$s / country %3$s', 'olx-ba-woocommerce-sync'), $this->format_optional_id((int) $settings['default_category_id']), $this->format_optional_id((int) $settings['city_id']), $this->format_optional_id((int) $settings['country_id']))); ?></span>
                         </div>
                     </div>
                 </div>
@@ -517,7 +517,7 @@ class OLX_BA_Admin
         echo '<li><strong>' . esc_html__('Listing', 'olx-ba-woocommerce-sync') . ':</strong> ' . esc_html($status['listing_id'] > 0 ? sprintf(__('#%d', 'olx-ba-woocommerce-sync'), $status['listing_id']) : __('Not linked yet', 'olx-ba-woocommerce-sync')) . '</li>';
         echo '<li><strong>' . esc_html__('Last sync', 'olx-ba-woocommerce-sync') . ':</strong> ' . esc_html($status['last_sync'] !== '' ? $status['last_sync'] : __('Never', 'olx-ba-woocommerce-sync')) . '</li>';
         echo '<li><strong>' . esc_html__('Queue', 'olx-ba-woocommerce-sync') . ':</strong> ' . esc_html($status['queue_status'] !== '' ? $status['queue_status'] : __('Not queued', 'olx-ba-woocommerce-sync')) . '</li>';
-        echo '<li><strong>' . esc_html__('Effective mapping', 'olx-ba-woocommerce-sync') . ':</strong> ' . esc_html(sprintf(__('category %1$d, city %2$d, country %3$d', 'olx-ba-woocommerce-sync'), $effective_category_id, $effective_city_id, $effective_country_id)) . '</li>';
+        echo '<li><strong>' . esc_html__('Effective mapping', 'olx-ba-woocommerce-sync') . ':</strong> ' . esc_html(sprintf(__('category %1$s, city %2$s, country %3$s', 'olx-ba-woocommerce-sync'), $this->format_optional_id($effective_category_id), $this->format_optional_id($effective_city_id), $this->format_optional_id($effective_country_id))) . '</li>';
         echo '</ul>';
         if ($status['last_error'] !== '') {
             echo '<p class="olx-ba-inline-error"><strong>' . esc_html__('Last error:', 'olx-ba-woocommerce-sync') . '</strong> ' . esc_html($status['last_error']) . '</p>';
@@ -1050,7 +1050,7 @@ class OLX_BA_Admin
                 echo '<input id="olx_ba_attr_' . esc_attr((string) $attribute_id) . '" name="_olx_ba_attr[' . esc_attr((string) $attribute_id) . ']" type="text" class="short olx-ba-input" value="' . esc_attr($value) . '">';
             }
 
-            echo '<span class="description">' . esc_html(sprintf(__('Attribute ID: %d', 'olx-ba-woocommerce-sync'), $attribute_id)) . '</span>';
+            echo '<span class="description">' . esc_html__('Attribute ID:', 'olx-ba-woocommerce-sync') . ' ' . esc_html((string) $attribute_id) . '</span>';
             echo '</div>';
         }
 
@@ -1119,6 +1119,11 @@ class OLX_BA_Admin
     private function get_attribute_profile_placeholder(): string
     {
         return "{\n  \"491\": {\n    \"123\": \"Standard value\",\n    \"456\": \"Another value\"\n  }\n}";
+    }
+
+    private function format_optional_id(int $value): string
+    {
+        return $value > 0 ? (string) $value : __('Not set', 'olx-ba-woocommerce-sync');
     }
 
     private function get_profiles_placeholder(): string
