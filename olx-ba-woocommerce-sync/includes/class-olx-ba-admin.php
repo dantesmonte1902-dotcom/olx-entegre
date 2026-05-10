@@ -58,8 +58,14 @@ class OLX_BA_Admin
         $settings = $this->client->get_settings();
         $token = $this->client->get_token();
         $profiles = $this->client->get_profiles();
-        $connected = $token !== '';
+        $is_connected = $token !== '';
         $active_profile_label = __('Default profile', 'olx-ba-woocommerce-sync');
+        $default_route_summary = sprintf(
+            __('Default route: category %1$s / city %2$s / country %3$s', 'olx-ba-woocommerce-sync'),
+            $this->format_optional_id((int) $settings['default_category_id']),
+            $this->format_optional_id((int) $settings['city_id']),
+            $this->format_optional_id((int) $settings['country_id'])
+        );
 
         foreach ($profiles as $profile) {
             $profile_id = sanitize_key($profile['id'] ?? '');
@@ -79,12 +85,12 @@ class OLX_BA_Admin
                         <p class="olx-ba-lead"><?php echo esc_html__('Keep your existing OLX.ba workflow, manage mappings faster, and monitor sync readiness from one modern admin screen.', 'olx-ba-woocommerce-sync'); ?></p>
                     </div>
                     <div class="olx-ba-hero-status">
-                        <span class="olx-ba-status-badge <?php echo esc_attr($connected ? 'is-connected' : 'is-disconnected'); ?>">
-                            <?php echo esc_html($connected ? __('Connected', 'olx-ba-woocommerce-sync') : __('Disconnected', 'olx-ba-woocommerce-sync')); ?>
+                        <span class="olx-ba-status-badge <?php echo esc_attr($is_connected ? 'is-connected' : 'is-disconnected'); ?>">
+                            <?php echo esc_html($is_connected ? __('Connected', 'olx-ba-woocommerce-sync') : __('Disconnected', 'olx-ba-woocommerce-sync')); ?>
                         </span>
                         <div class="olx-ba-hero-meta">
                             <strong><?php echo esc_html($active_profile_label); ?></strong>
-                            <span><?php echo esc_html(sprintf(__('Default route: category %1$s / city %2$s / country %3$s', 'olx-ba-woocommerce-sync'), $this->format_optional_id((int) $settings['default_category_id']), $this->format_optional_id((int) $settings['city_id']), $this->format_optional_id((int) $settings['country_id']))); ?></span>
+                            <span><?php echo esc_html($default_route_summary); ?></span>
                         </div>
                     </div>
                 </div>
@@ -517,7 +523,13 @@ class OLX_BA_Admin
         echo '<li><strong>' . esc_html__('Listing', 'olx-ba-woocommerce-sync') . ':</strong> ' . esc_html($status['listing_id'] > 0 ? sprintf(__('#%d', 'olx-ba-woocommerce-sync'), $status['listing_id']) : __('Not linked yet', 'olx-ba-woocommerce-sync')) . '</li>';
         echo '<li><strong>' . esc_html__('Last sync', 'olx-ba-woocommerce-sync') . ':</strong> ' . esc_html($status['last_sync'] !== '' ? $status['last_sync'] : __('Never', 'olx-ba-woocommerce-sync')) . '</li>';
         echo '<li><strong>' . esc_html__('Queue', 'olx-ba-woocommerce-sync') . ':</strong> ' . esc_html($status['queue_status'] !== '' ? $status['queue_status'] : __('Not queued', 'olx-ba-woocommerce-sync')) . '</li>';
-        echo '<li><strong>' . esc_html__('Effective mapping', 'olx-ba-woocommerce-sync') . ':</strong> ' . esc_html(sprintf(__('category %1$s, city %2$s, country %3$s', 'olx-ba-woocommerce-sync'), $this->format_optional_id($effective_category_id), $this->format_optional_id($effective_city_id), $this->format_optional_id($effective_country_id))) . '</li>';
+        $effective_mapping_summary = sprintf(
+            __('category %1$s, city %2$s, country %3$s', 'olx-ba-woocommerce-sync'),
+            $this->format_optional_id($effective_category_id),
+            $this->format_optional_id($effective_city_id),
+            $this->format_optional_id($effective_country_id)
+        );
+        echo '<li><strong>' . esc_html__('Effective mapping', 'olx-ba-woocommerce-sync') . ':</strong> ' . esc_html($effective_mapping_summary) . '</li>';
         echo '</ul>';
         if ($status['last_error'] !== '') {
             echo '<p class="olx-ba-inline-error"><strong>' . esc_html__('Last error:', 'olx-ba-woocommerce-sync') . '</strong> ' . esc_html($status['last_error']) . '</p>';
