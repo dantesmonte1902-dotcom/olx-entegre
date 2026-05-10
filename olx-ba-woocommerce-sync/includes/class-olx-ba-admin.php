@@ -203,15 +203,15 @@ class OLX_BA_Admin
                                     <tr>
                                         <th scope="row"><?php echo esc_html__('Automation', 'olx-ba-woocommerce-sync'); ?></th>
                                         <td class="olx-ba-stack">
-                                            <label><input type="checkbox" name="auto_sync" value="1" <?php checked($settings['auto_sync'], 'yes'); ?>> <?php echo esc_html__('Sync enabled products when they are saved', 'olx-ba-woocommerce-sync'); ?></label>
-                                            <label><input type="checkbox" name="auto_publish" value="1" <?php checked($settings['auto_publish'], 'yes'); ?>> <?php echo esc_html__('Publish listings after sync', 'olx-ba-woocommerce-sync'); ?></label>
-                                            <label><input type="checkbox" name="sync_images" value="1" <?php checked($settings['sync_images'], 'yes'); ?>> <?php echo esc_html__('Upload product images on first sync', 'olx-ba-woocommerce-sync'); ?></label>
+                                            <label><input type="checkbox" name="auto_sync" value="1" <?php checked($settings['auto_sync'], 'yes'); ?>> <span><?php echo esc_html__('Sync enabled products when they are saved', 'olx-ba-woocommerce-sync'); ?></span></label>
+                                            <label><input type="checkbox" name="auto_publish" value="1" <?php checked($settings['auto_publish'], 'yes'); ?>> <span><?php echo esc_html__('Publish listings after sync', 'olx-ba-woocommerce-sync'); ?></span></label>
+                                            <label><input type="checkbox" name="sync_images" value="1" <?php checked($settings['sync_images'], 'yes'); ?>> <span><?php echo esc_html__('Upload product images on first sync', 'olx-ba-woocommerce-sync'); ?></span></label>
                                         </td>
                                     </tr>
                                     <tr>
                                         <th scope="row"><?php echo esc_html__('Default attribute profiles', 'olx-ba-woocommerce-sync'); ?></th>
                                         <td>
-                                            <label><input type="checkbox" name="use_default_attributes" value="1" <?php checked($settings['use_default_attributes'], 'yes'); ?>> <?php echo esc_html__('Use category default attributes when product fields are empty', 'olx-ba-woocommerce-sync'); ?></label>
+                                            <label><input type="checkbox" name="use_default_attributes" value="1" <?php checked($settings['use_default_attributes'], 'yes'); ?>> <span><?php echo esc_html__('Use category default attributes when product fields are empty', 'olx-ba-woocommerce-sync'); ?></span></label>
                                             <p class="description"><?php echo esc_html__('Product-level OLX.ba attributes always override these defaults.', 'olx-ba-woocommerce-sync'); ?></p>
                                             <textarea name="default_attribute_profiles" rows="10" cols="80" class="large-text code" placeholder="<?php echo esc_attr($this->get_attribute_profile_placeholder()); ?>"><?php echo esc_textarea($settings['default_attribute_profiles']); ?></textarea>
                                             <p class="description"><?php echo esc_html__('JSON format: category ID maps to attribute ID/value pairs.', 'olx-ba-woocommerce-sync'); ?></p>
@@ -1178,7 +1178,7 @@ class OLX_BA_Admin
             }
             .olx-ba-hero {
                 align-items: center;
-                background: linear-gradient(135deg, #111827 0%, #1f2937 55%, #2563eb 100%);
+                background: linear-gradient(135deg, #111827 0%, #1f2937 55%, #1d4ed8 100%);
                 border-radius: 18px;
                 color: #fff;
                 display: flex;
