@@ -1,0 +1,399 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OLX.ba WooCommerce Sync 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-29 11:05+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: olx-ba-woocommerce-sync\n"
+
+msgid "OLX.ba WooCommerce Sync requires WooCommerce to be active."
+msgstr ""
+
+msgid "OLX.ba Sync"
+msgstr ""
+
+msgid "You do not have permission to manage OLX.ba sync."
+msgstr ""
+
+msgid "OLX.ba WooCommerce Sync"
+msgstr ""
+
+msgid "Username or email"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Stored password is kept unless you enter a new one"
+msgstr ""
+
+msgid "Leave blank to keep the current password."
+msgstr ""
+
+msgid "Device name"
+msgstr ""
+
+msgid "Default country ID"
+msgstr ""
+
+msgid "Default city ID"
+msgstr ""
+
+msgid "Default category ID"
+msgstr ""
+
+msgid "Default condition"
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "Used"
+msgstr ""
+
+msgid "Shipping code"
+msgstr ""
+
+msgid "Automation"
+msgstr ""
+
+msgid "Sync enabled products when they are saved"
+msgstr ""
+
+msgid "Publish listings after sync"
+msgstr ""
+
+msgid "Upload product images on first sync"
+msgstr ""
+
+msgid "Save settings"
+msgstr ""
+
+msgid "Reconnect OLX.ba"
+msgstr ""
+
+msgid "Connect OLX.ba"
+msgstr ""
+
+msgid "Sync to OLX.ba"
+msgstr ""
+
+msgid "Allow this product to be published to OLX.ba."
+msgstr ""
+
+msgid "OLX.ba listing ID"
+msgstr ""
+
+msgid "OLX.ba category ID"
+msgstr ""
+
+msgid "OLX.ba city ID"
+msgstr ""
+
+msgid "OLX.ba country ID"
+msgstr ""
+
+msgid "OLX.ba condition"
+msgstr ""
+
+msgid "Use default"
+msgstr ""
+
+msgid "OLX.ba attributes JSON"
+msgstr ""
+
+msgid "OLX.ba actions"
+msgstr ""
+
+msgid "OLX.ba status"
+msgstr ""
+
+msgid "Listing #%d"
+msgstr ""
+
+msgid "Not linked yet"
+msgstr ""
+
+msgid "Last sync: %s"
+msgstr ""
+
+msgid "Last error:"
+msgstr ""
+
+msgid "Sync now"
+msgstr ""
+
+msgid "Delete OLX listing"
+msgstr ""
+
+msgid "Settings saved."
+msgstr ""
+
+msgid "Connected to OLX.ba."
+msgstr ""
+
+msgid "OLX.ba connection failed. Check credentials and API access."
+msgstr ""
+
+msgid "Product synced to OLX.ba."
+msgstr ""
+
+msgid "Product sync to OLX.ba failed. Check mappings, credentials, and API access."
+msgstr ""
+
+msgid "OLX.ba listing deleted."
+msgstr ""
+
+msgid "OLX.ba listing delete failed."
+msgstr ""
+
+msgid "OLX.ba bulk sync finished. Success: %1$d, failed: %2$d."
+msgstr ""
+
+msgid "OLX.ba"
+msgstr ""
+
+msgid "OLX"
+msgstr ""
+
+msgid "Linked"
+msgstr ""
+
+msgid "Not linked"
+msgstr ""
+
+msgid "Synced: %s"
+msgstr ""
+
+msgid "Send to OLX.ba"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Send"
+msgstr ""
+
+msgid "Detail:"
+msgstr ""
+
+msgid "OLX.ba category must be a leaf category. Choose one of its child categories."
+msgstr ""
+
+msgid "Suggestions: %s"
+msgstr ""
+
+msgid "OLX.ba city ID is not valid. Use a real city ID, not a state/canton/country ID."
+msgstr ""
+
+msgid "OLX.ba lookup tools"
+msgstr ""
+
+msgid "Use these helpers to find valid leaf category IDs and city IDs before syncing products."
+msgstr ""
+
+msgid "Find category by name"
+msgstr ""
+
+msgid "Example: obuca, jakna, felge"
+msgstr ""
+
+msgid "Find categories"
+msgstr ""
+
+msgid "List child categories by parent ID"
+msgstr ""
+
+msgid "List child categories"
+msgstr ""
+
+msgid "List cities by canton ID"
+msgstr ""
+
+msgid "List cities"
+msgstr ""
+
+msgid "Enter a category name to search."
+msgstr ""
+
+msgid "Enter a canton ID to list cities."
+msgstr ""
+
+msgid "Enter a parent category ID to list child categories."
+msgstr ""
+
+msgid "Lookup completed."
+msgstr ""
+
+msgid "Lookup failed."
+msgstr ""
+
+msgid "Lookup results"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Path / location"
+msgstr ""
+
+msgid "Leave empty to use default category ID %s."
+msgstr ""
+
+msgid "Leave empty to use default city ID %s."
+msgstr ""
+
+msgid "Leave empty to use default country ID %s."
+msgstr ""
+
+msgid "Effective mapping:"
+msgstr ""
+
+msgid "category %1$d, city %2$d, country %3$d"
+msgstr ""
+
+msgid "Product-level OLX IDs override the default settings above."
+msgstr ""
+
+msgid "This OLX.ba category requires attributes: %s. Fill them in the product OLX.ba section."
+msgstr ""
+
+msgid "OLX.ba attributes"
+msgstr ""
+
+msgid "Required OLX.ba attributes"
+msgstr ""
+
+msgid "These fields come from the selected OLX.ba category and are required by OLX.ba before the listing can be created."
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "OLX.ba required attributes"
+msgstr ""
+
+msgid "Fill these fields, update the product, then send it to OLX.ba."
+msgstr ""
+
+msgid "Set a default OLX.ba category and connect OLX.ba to load required attributes."
+msgstr ""
+
+msgid "Default attribute profiles"
+msgstr ""
+
+msgid "Use category default attributes when product fields are empty"
+msgstr ""
+
+msgid "Product-level OLX.ba attributes always override these defaults."
+msgstr ""
+
+msgid "JSON format: category ID maps to attribute ID/value pairs."
+msgstr ""
+
+msgid "Generate default attribute profile template"
+msgstr ""
+
+msgid "Generate template"
+msgstr ""
+
+msgid "Enter a category ID to generate an attribute profile template."
+msgstr ""
+
+msgid "Attribute profile template"
+msgstr ""
+
+msgid "Copy this JSON into Default attribute profiles, then replace the label text with the standard values you want to send."
+msgstr ""
+
+msgid "Attribute ID"
+msgstr ""
+
+msgid "Field"
+msgstr ""
+
+msgid "Allowed values"
+msgstr ""
+
+msgid "Free text"
+msgstr ""
+
+msgid "General settings"
+msgstr ""
+
+msgid "Active OLX.ba profile"
+msgstr ""
+
+msgid "OLX.ba profiles"
+msgstr ""
+
+msgid "Optional JSON list. Each profile can have its own credentials, defaults, attribute profiles, and active listing limit."
+msgstr ""
+
+msgid "OLX.ba profile"
+msgstr ""
+
+msgid "Choose which OLX.ba profile publishes this product."
+msgstr ""
+
+msgid "Use active default profile"
+msgstr ""
+
+msgid "Sync queue"
+msgstr ""
+
+msgid "Queue products from the Products table, then process them in controlled batches."
+msgstr ""
+
+msgid "Batch size"
+msgstr ""
+
+msgid "Process queue"
+msgstr ""
+
+msgid "OLX.ba queue processed. Success: %1$d, failed: %2$d."
+msgstr ""
+
+msgid "Products added to OLX.ba queue: %d."
+msgstr ""
+
+msgid "Queue: %s"
+msgstr ""
+
+msgid "Add selected products to OLX.ba queue"
+msgstr ""
+
+msgid "OLX.ba profile \"%1$s\" reached its active listing limit of %2$d."
+msgstr ""
+
+msgid "Category mappings"
+msgstr ""
+
+msgid "Map WooCommerce product category ID, slug, or name to OLX.ba leaf category ID."
+msgstr ""
+
+msgid "Send selected products to OLX.ba"
+msgstr ""
+
+msgid "OLX.ba username and password are required."
+msgstr ""
+
+msgid "OLX.ba login response did not include a token."
+msgstr ""
+
+msgid "OLX.ba API request failed with HTTP %d."
+msgstr ""
+
+msgid "Product not found."
+msgstr ""
+
+msgid "This product is not linked to an OLX.ba listing."
+msgstr ""
+
+msgid "OLX.ba category, city, and country IDs are required."
+msgstr ""

@@ -1,0 +1,404 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OLX.ba WooCommerce Sync 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-29 11:05+0200\n"
+"PO-Revision-Date: 2026-04-29 11:05+0200\n"
+"Last-Translator: Codex\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Codex\n"
+"X-Domain: olx-ba-woocommerce-sync\n"
+
+msgid "OLX.ba WooCommerce Sync requires WooCommerce to be active."
+msgstr "OLX.ba WooCommerce Sync eklentisinin çalışması için WooCommerce etkin olmalıdır."
+
+msgid "OLX.ba Sync"
+msgstr "OLX.ba Senkronizasyonu"
+
+msgid "You do not have permission to manage OLX.ba sync."
+msgstr "OLX.ba senkronizasyonunu yönetme izniniz yok."
+
+msgid "OLX.ba WooCommerce Sync"
+msgstr "OLX.ba WooCommerce Senkronizasyonu"
+
+msgid "Username or email"
+msgstr "Kullanıcı adı veya e-posta"
+
+msgid "Password"
+msgstr "Parola"
+
+msgid "Stored password is kept unless you enter a new one"
+msgstr "Yeni bir parola girmezseniz kayıtlı parola korunur"
+
+msgid "Leave blank to keep the current password."
+msgstr "Mevcut parolayı korumak için boş bırakın."
+
+msgid "Device name"
+msgstr "Cihaz adı"
+
+msgid "Default country ID"
+msgstr "Varsayılan ülke ID'si"
+
+msgid "Default city ID"
+msgstr "Varsayılan şehir ID'si"
+
+msgid "Default category ID"
+msgstr "Varsayılan kategori ID'si"
+
+msgid "Default condition"
+msgstr "Varsayılan durum"
+
+msgid "New"
+msgstr "Yeni"
+
+msgid "Used"
+msgstr "Kullanılmış"
+
+msgid "Shipping code"
+msgstr "Kargo kodu"
+
+msgid "Automation"
+msgstr "Otomasyon"
+
+msgid "Sync enabled products when they are saved"
+msgstr "Etkinleştirilmiş ürünler kaydedildiğinde senkronize et"
+
+msgid "Publish listings after sync"
+msgstr "Senkronizasyondan sonra ilanları yayınla"
+
+msgid "Upload product images on first sync"
+msgstr "İlk senkronizasyonda ürün görsellerini yükle"
+
+msgid "Save settings"
+msgstr "Ayarları kaydet"
+
+msgid "Reconnect OLX.ba"
+msgstr "OLX.ba bağlantısını yenile"
+
+msgid "Connect OLX.ba"
+msgstr "OLX.ba'ya bağlan"
+
+msgid "Sync to OLX.ba"
+msgstr "OLX.ba ile senkronize et"
+
+msgid "Allow this product to be published to OLX.ba."
+msgstr "Bu ürünün OLX.ba üzerinde yayınlanmasına izin ver."
+
+msgid "OLX.ba listing ID"
+msgstr "OLX.ba ilan ID'si"
+
+msgid "OLX.ba category ID"
+msgstr "OLX.ba kategori ID'si"
+
+msgid "OLX.ba city ID"
+msgstr "OLX.ba şehir ID'si"
+
+msgid "OLX.ba country ID"
+msgstr "OLX.ba ülke ID'si"
+
+msgid "OLX.ba condition"
+msgstr "OLX.ba durumu"
+
+msgid "Use default"
+msgstr "Varsayılanı kullan"
+
+msgid "OLX.ba attributes JSON"
+msgstr "OLX.ba özellikleri JSON"
+
+msgid "OLX.ba actions"
+msgstr "OLX.ba işlemleri"
+
+msgid "OLX.ba status"
+msgstr "OLX.ba durumu"
+
+msgid "Listing #%d"
+msgstr "İlan #%d"
+
+msgid "Not linked yet"
+msgstr "Henüz bağlı değil"
+
+msgid "Last sync: %s"
+msgstr "Son senkronizasyon: %s"
+
+msgid "Last error:"
+msgstr "Son hata:"
+
+msgid "Sync now"
+msgstr "Şimdi senkronize et"
+
+msgid "Delete OLX listing"
+msgstr "OLX ilanını sil"
+
+msgid "Settings saved."
+msgstr "Ayarlar kaydedildi."
+
+msgid "Connected to OLX.ba."
+msgstr "OLX.ba bağlantısı kuruldu."
+
+msgid "OLX.ba connection failed. Check credentials and API access."
+msgstr "OLX.ba bağlantısı başarısız oldu. Kimlik bilgilerini ve API erişimini kontrol edin."
+
+msgid "Product synced to OLX.ba."
+msgstr "Ürün OLX.ba ile senkronize edildi."
+
+msgid "Product sync to OLX.ba failed. Check mappings, credentials, and API access."
+msgstr "Ürünün OLX.ba ile senkronizasyonu başarısız oldu. Eşleştirmeleri, kimlik bilgilerini ve API erişimini kontrol edin."
+
+msgid "OLX.ba listing deleted."
+msgstr "OLX.ba ilanı silindi."
+
+msgid "OLX.ba listing delete failed."
+msgstr "OLX.ba ilanı silinemedi."
+
+msgid "OLX.ba bulk sync finished. Success: %1$d, failed: %2$d."
+msgstr "OLX.ba toplu senkronizasyon tamamlandı. Başarılı: %1$d, başarısız: %2$d."
+
+msgid "OLX.ba"
+msgstr "OLX.ba"
+
+msgid "OLX"
+msgstr "OLX"
+
+msgid "Linked"
+msgstr "Bağlı"
+
+msgid "Not linked"
+msgstr "Bağlı değil"
+
+msgid "Synced: %s"
+msgstr "Senkronize edildi: %s"
+
+msgid "Send to OLX.ba"
+msgstr "OLX.ba'ya gönder"
+
+msgid "Error"
+msgstr "Hata"
+
+msgid "Send"
+msgstr "Gönder"
+
+msgid "Detail:"
+msgstr "Detay:"
+
+msgid "OLX.ba category must be a leaf category. Choose one of its child categories."
+msgstr "OLX.ba kategorisi en alt kategori olmalıdır. Alt kategorilerden birini seçin."
+
+msgid "Suggestions: %s"
+msgstr "Öneriler: %s"
+
+msgid "OLX.ba city ID is not valid. Use a real city ID, not a state/canton/country ID."
+msgstr "OLX.ba şehir ID'si geçerli değil. Eyalet/kanton/ülke ID'si değil, gerçek şehir ID'si kullanın."
+
+msgid "OLX.ba lookup tools"
+msgstr "OLX.ba arama araçları"
+
+msgid "Use these helpers to find valid leaf category IDs and city IDs before syncing products."
+msgstr "Ürünleri senkronize etmeden önce geçerli en alt kategori ID'lerini ve şehir ID'lerini bulmak için bu yardımcıları kullanın."
+
+msgid "Find category by name"
+msgstr "Ada göre kategori bul"
+
+msgid "Example: obuca, jakna, felge"
+msgstr "Örnek: obuca, jakna, felge"
+
+msgid "Find categories"
+msgstr "Kategorileri bul"
+
+msgid "List child categories by parent ID"
+msgstr "Üst kategori ID'sine göre alt kategorileri listele"
+
+msgid "List child categories"
+msgstr "Alt kategorileri listele"
+
+msgid "List cities by canton ID"
+msgstr "Kanton ID'sine göre şehirleri listele"
+
+msgid "List cities"
+msgstr "Şehirleri listele"
+
+msgid "Enter a category name to search."
+msgstr "Aramak için bir kategori adı girin."
+
+msgid "Enter a canton ID to list cities."
+msgstr "Şehirleri listelemek için bir kanton ID'si girin."
+
+msgid "Enter a parent category ID to list child categories."
+msgstr "Alt kategorileri listelemek için bir üst kategori ID'si girin."
+
+msgid "Lookup completed."
+msgstr "Arama tamamlandı."
+
+msgid "Lookup failed."
+msgstr "Arama başarısız oldu."
+
+msgid "Lookup results"
+msgstr "Arama sonuçları"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Name"
+msgstr "Ad"
+
+msgid "Path / location"
+msgstr "Yol / konum"
+
+msgid "Leave empty to use default category ID %s."
+msgstr "Varsayılan kategori ID'si %s kullanılsın diye boş bırakın."
+
+msgid "Leave empty to use default city ID %s."
+msgstr "Varsayılan şehir ID'si %s kullanılsın diye boş bırakın."
+
+msgid "Leave empty to use default country ID %s."
+msgstr "Varsayılan ülke ID'si %s kullanılsın diye boş bırakın."
+
+msgid "Effective mapping:"
+msgstr "Etkin eşleştirme:"
+
+msgid "category %1$d, city %2$d, country %3$d"
+msgstr "kategori %1$d, şehir %2$d, ülke %3$d"
+
+msgid "Product-level OLX IDs override the default settings above."
+msgstr "Ürün seviyesindeki OLX ID'leri yukarıdaki varsayılan ayarları geçersiz kılar."
+
+msgid "This OLX.ba category requires attributes: %s. Fill them in the product OLX.ba section."
+msgstr "Bu OLX.ba kategorisi şu özellikleri zorunlu tutuyor: %s. Bunları ürünün OLX.ba bölümünde doldurun."
+
+msgid "OLX.ba attributes"
+msgstr "OLX.ba özellikleri"
+
+msgid "Required OLX.ba attributes"
+msgstr "Zorunlu OLX.ba özellikleri"
+
+msgid "These fields come from the selected OLX.ba category and are required by OLX.ba before the listing can be created."
+msgstr "Bu alanlar seçili OLX.ba kategorisinden gelir ve ilan oluşturulmadan önce OLX.ba tarafından zorunlu tutulur."
+
+msgid "Select"
+msgstr "Seç"
+
+msgid "OLX.ba required attributes"
+msgstr "OLX.ba zorunlu özellikleri"
+
+msgid "Fill these fields, update the product, then send it to OLX.ba."
+msgstr "Bu alanları doldurun, ürünü güncelleyin, sonra OLX.ba'ya gönderin."
+
+msgid "Set a default OLX.ba category and connect OLX.ba to load required attributes."
+msgstr "Zorunlu özellikleri yüklemek için varsayılan OLX.ba kategorisini ayarlayın ve OLX.ba bağlantısını kurun."
+
+msgid "Default attribute profiles"
+msgstr "Varsayılan özellik profilleri"
+
+msgid "Use category default attributes when product fields are empty"
+msgstr "Ürün alanları boşsa kategori varsayılan özelliklerini kullan"
+
+msgid "Product-level OLX.ba attributes always override these defaults."
+msgstr "Ürün seviyesindeki OLX.ba özellikleri her zaman bu varsayılanları geçersiz kılar."
+
+msgid "JSON format: category ID maps to attribute ID/value pairs."
+msgstr "JSON formatı: kategori ID'si, özellik ID/değer çiftleriyle eşleşir."
+
+msgid "Generate default attribute profile template"
+msgstr "Varsayılan özellik profili şablonu üret"
+
+msgid "Generate template"
+msgstr "Şablon üret"
+
+msgid "Enter a category ID to generate an attribute profile template."
+msgstr "Özellik profili şablonu üretmek için bir kategori ID'si girin."
+
+msgid "Attribute profile template"
+msgstr "Özellik profili şablonu"
+
+msgid "Copy this JSON into Default attribute profiles, then replace the label text with the standard values you want to send."
+msgstr "Bu JSON'u Varsayılan özellik profilleri alanına kopyalayın, sonra etiket metinlerini göndermek istediğiniz standart değerlerle değiştirin."
+
+msgid "Attribute ID"
+msgstr "Özellik ID'si"
+
+msgid "Field"
+msgstr "Alan"
+
+msgid "Allowed values"
+msgstr "İzin verilen değerler"
+
+msgid "Free text"
+msgstr "Serbest metin"
+
+msgid "General settings"
+msgstr "Genel ayarlar"
+
+msgid "Active OLX.ba profile"
+msgstr "Aktif OLX.ba profili"
+
+msgid "OLX.ba profiles"
+msgstr "OLX.ba profilleri"
+
+msgid "Optional JSON list. Each profile can have its own credentials, defaults, attribute profiles, and active listing limit."
+msgstr "İsteğe bağlı JSON listesi. Her profil kendi kimlik bilgilerine, varsayılanlarına, özellik profillerine ve aktif ilan limitine sahip olabilir."
+
+msgid "OLX.ba profile"
+msgstr "OLX.ba profili"
+
+msgid "Choose which OLX.ba profile publishes this product."
+msgstr "Bu ürünü hangi OLX.ba profilinin yayınlayacağını seçin."
+
+msgid "Use active default profile"
+msgstr "Aktif varsayılan profili kullan"
+
+msgid "Sync queue"
+msgstr "Senkronizasyon kuyruğu"
+
+msgid "Queue products from the Products table, then process them in controlled batches."
+msgstr "Ürünler tablosundan ürünleri kuyruğa alın, sonra kontrollü partiler halinde işleyin."
+
+msgid "Batch size"
+msgstr "Parti boyutu"
+
+msgid "Process queue"
+msgstr "Kuyruğu işle"
+
+msgid "OLX.ba queue processed. Success: %1$d, failed: %2$d."
+msgstr "OLX.ba kuyruğu işlendi. Başarılı: %1$d, başarısız: %2$d."
+
+msgid "Products added to OLX.ba queue: %d."
+msgstr "OLX.ba kuyruğuna eklenen ürün: %d."
+
+msgid "Queue: %s"
+msgstr "Kuyruk: %s"
+
+msgid "Add selected products to OLX.ba queue"
+msgstr "Seçili ürünleri OLX.ba kuyruğuna ekle"
+
+msgid "OLX.ba profile \"%1$s\" reached its active listing limit of %2$d."
+msgstr "OLX.ba profili \"%1$s\" %2$d aktif ilan limitine ulaştı."
+
+msgid "Category mappings"
+msgstr "Kategori eşleştirmeleri"
+
+msgid "Map WooCommerce product category ID, slug, or name to OLX.ba leaf category ID."
+msgstr "WooCommerce ürün kategori ID'sini, kısa adını veya adını OLX.ba en alt kategori ID'si ile eşleştirin."
+
+msgid "Send selected products to OLX.ba"
+msgstr "Seçili ürünleri OLX.ba'ya gönder"
+
+msgid "OLX.ba username and password are required."
+msgstr "OLX.ba kullanıcı adı ve parolası gereklidir."
+
+msgid "OLX.ba login response did not include a token."
+msgstr "OLX.ba giriş yanıtında token bulunamadı."
+
+msgid "OLX.ba API request failed with HTTP %d."
+msgstr "OLX.ba API isteği HTTP %d ile başarısız oldu."
+
+msgid "Product not found."
+msgstr "Ürün bulunamadı."
+
+msgid "This product is not linked to an OLX.ba listing."
+msgstr "Bu ürün bir OLX.ba ilanına bağlı değil."
+
+msgid "OLX.ba category, city, and country IDs are required."
+msgstr "OLX.ba kategori, şehir ve ülke ID'leri gereklidir."
